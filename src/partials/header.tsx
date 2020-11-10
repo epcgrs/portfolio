@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { FiHome, FiUser } from "react-icons/fi";
+import { FiHome, FiUser, FiCode } from "react-icons/fi";
+import { Link } from 'react-router-dom';
 
 import {Nav} from './header.styles';
 
@@ -8,13 +9,21 @@ const MainNav: React.FC = () => {
     return (
         <Nav className="main-nav">
             <ul>
-                <li>
-                    E
+                <li> 
+                    <Link to='/' title="Home">
+                        <FiHome />
+                    </Link> 
                 </li>
-            </ul>
-            <ul>
-                <li> <a href="#"><FiHome /></a>    </li>
-                <li> <a href="#"><FiUser /></a>    </li>
+                <li> 
+                    <Link to='/sobre' title="Sobre">
+                        <FiUser />
+                    </Link> 
+                </li>
+                <li> 
+                    <Link to='/projetos' title="Projetos">
+                        <FiCode />
+                    </Link> 
+                </li>
             </ul>
         </Nav>
     );

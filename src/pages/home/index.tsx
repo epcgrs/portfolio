@@ -1,6 +1,8 @@
 import React from 'react';
 
-import {Container, Content} from './styles';
+import {Container, Content} from '../../styles/globals';
+import { HomeWrapper } from './styles';
+import ParticlesBg from 'particles-bg';
 
 import Header from '../../partials/header';
 
@@ -9,7 +11,10 @@ const Home: React.FC = () => {
         <Container>
            <Header />
             <Content>
-                <h1>Hello</h1>
+                <HomeWrapper>
+                    <h1>Olá, sou Emmanuel Pires, <br/> desenvolvedor Full-Stack Jr.</h1>
+                </HomeWrapper>
+                <ParticlesBg  type="square" color="#000000" bg={true} />
             </Content>
         </Container>
     );

@@ -1,15 +1,15 @@
 import React from 'react';
 
-import Home from './pages/home';
+import Routes from './routes';
 import GlobalStyle from './styles/globals';
 
-const App: React.FC = () => {
+function App() {
   return (
     <>
-      <Home />
-      <GlobalStyle />
+      <Routes />
+      <GlobalStyle /> 
     </>
-  )
+  );
 }
 
 export default App;
