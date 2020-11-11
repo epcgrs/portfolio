@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Renovacar",
+        "tags": ["HTML", "PHP", "JS", "CSS"],
+        "description": "Site institucional da oficina Renovacar Serviços Automotivos, feito com html e enviando emails com php.",
+        "url": "https://renovacar.netlify.app/"    
+    },
+    {
+        "title": "Ecoleta [NLW]",
+        "tags": ["React", "Node.js", "Typescript", "React Native"],
+        "description": "Sistema de gerenciamento de pontos de coleta de material reciclável, projetos de web, app e API.",
+        "url": "https://github.com/epcgrs/nlw-Ecoleta-web"   
+    }
+]

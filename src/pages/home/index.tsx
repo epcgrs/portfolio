@@ -12,9 +12,9 @@ const Home: React.FC = () => {
            <Header />
             <Content>
                 <HomeWrapper>
-                    <h1>Olá, sou Emmanuel Pires, <br/> desenvolvedor Full-Stack Jr.</h1>
+                    <h1>Olá, me chamo Emmanuel Pires, <br/> sou desenvolvedor Full-Stack Jr.</h1>
                 </HomeWrapper>
-                <ParticlesBg  type="square" color="#000000" bg={true} />
+                <ParticlesBg  type="square" color="#000000" bg={true} num={10} />
             </Content>
         </Container>
     );

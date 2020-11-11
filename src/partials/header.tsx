@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FiHome, FiUser, FiCode } from "react-icons/fi";
+import { FiHome, FiUser, FiCode, FiMail } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 
 import {Nav} from './header.styles';
@@ -22,6 +22,11 @@ const MainNav: React.FC = () => {
                 <li> 
                     <Link to='/projetos' title="Projetos">
                         <FiCode />
+                    </Link> 
+                </li>
+                <li> 
+                    <Link to='/contato' title="Contato">
+                        <FiMail />
                     </Link> 
                 </li>
             </ul>
