@@ -1,9 +1,21 @@
 [
     {
+        "title": "Ideias Azuis",
+        "tags": ["Laravel", "PHP"],
+        "description": "Site desenvolvido para compartilhamento de ideias no formato de posts, para atividades pedagógicas focadas em crianças com autismo.",
+        "url": "https://ideiasazuis.com.br"   
+    },
+    {
         "title": "Renovacar",
-        "tags": ["HTML", "PHP", "JS", "CSS"],
-        "description": "Site institucional da oficina Renovacar Serviços Automotivos, feito com html e enviando emails com php.",
+        "tags": ["HTML","PHP", "JS"],
+        "description": "Site institucional da oficina Renovacar Serviços Automotivos.",
         "url": "https://renovacar.netlify.app/"    
+    },
+    {
+        "title": "Consulta de Tempo",
+        "tags": ["React"],
+        "description": "Site para consultar a temperatura e condição climática atual.",
+        "url": "https://emmanuelpcg.com/live/tempo"   
     },
     {
         "title": "Ecoleta [NLW]",

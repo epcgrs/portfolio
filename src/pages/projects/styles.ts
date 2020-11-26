@@ -18,5 +18,10 @@ export const ProjectsWrapper = styled.div`
         display: flex;
         margin: auto;
         flex-wrap: wrap;
+        max-height: 85vh;
+        overflow: auto;
+        @media screen and (max-width: 920px) {
+            padding-bottom: 80px;
+        }
     }
 `;

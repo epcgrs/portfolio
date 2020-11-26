@@ -6,9 +6,11 @@ export const ProjectBlock = styled.div`
     background-color: transparent;
     border-radius: 15px;
     border: 3px solid orange;
-    flex: 1 1 auto;
     width: 45%;
 
+    @media screen and (max-width: 920px) {
+        width: 100%
+    }
     a {
         display: block;
         margin-top: 30px;
@@ -21,6 +23,9 @@ export const ProjectBlock = styled.div`
         transition: 0.4s;
         text-align: center;
         font-weight: 700;
+        @media screen and (max-width: 920px) {
+            max-width: 100%;
+        }
         &:hover, &:focus, &:active {
             text-decoration: none;
             background-color: black;
@@ -46,6 +51,9 @@ export const ProjectBlock = styled.div`
         &:not(:first-of-type) {
             margin-left: 5px;
         }
+        @media screen and (max-width: 920px) {
+            margin-bottom: 10px
+        }
     }
     .project-description {
         margin-top: 20px;
@@ -53,5 +61,8 @@ export const ProjectBlock = styled.div`
         font-size: 16px;
         max-width: 90%;
         line-height: 24px;
+        @media screen and (max-width: 920px) {
+            max-width: 100%;
+        }
     }
 `;

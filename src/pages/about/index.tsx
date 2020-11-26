@@ -14,13 +14,17 @@ const About: React.FC = () => {
                     <h2>Sobre</h2>
 
                     <h3>Experiências</h3>
-                    
+
                     <p>
-                        Atualmente trabalho como desenvolvedor full-stack na empresa Santins, sou formado em Técnico em informática e curso Análise e Desenvolvimento de Sistemas na Uniasselvi. Moro em Porto Alegre e a tecnologia é minha paixão.
+                        Gaúcho de Porto Alegre e apaixonado por tecnologia, em 2017 me formei no técnico em informática que me fez ingressar com tudo no mundo da programação, me aprimorando cada vez mais em desenvolvimento web.  
                     </p>
 
                     <p>
-                        Eu sempre acreditei que ajudar as pessoas seria uma coisa boa, e ajudar as pessoas a tornar seus sonhos e expectativas em realidade virou o meu. Gosto do que faço e sempre estou disposto a ajudar
+                        Atualmente trabalho como desenvolvedor full-stack na empresa Santins, sou formado em Análise e Desenvolvimento de Sistemas pela Uniasselvi. 
+                    </p>
+
+                    <p>
+                        Eu sempre acreditei que ajudar as pessoas seria uma coisa boa, e ajudar as pessoas a tornar seus sonhos e expectativas em realidade virou o meu. Gosto do que faço e sempre estou disposto a ajudar.
                     </p>
                 </AboutWrapper>
             </Content>

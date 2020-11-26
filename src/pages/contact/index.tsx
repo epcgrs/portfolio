@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
                     <h2>Contato</h2>
                     
                     <p className="contact-description">
-                        Para entrar em contato basta mandar um email para <a href="mailto:emmanuelf988@gmail.com" rel="noreferrer">emmanuelf988@gmail.com</a>, <br/>
+                        Para entrar em contato basta mandar um email para <a href="mailto:contato@emmanuelpcg.com" rel="noreferrer">contato@emmanuelpcg.com</a>, <br/>
                         ou acessar meu <a href="https://www.linkedin.com/in/emmanuel-pires/" rel="noreferrer" target="_blank">Linkedin</a> 
                     </p>
 
