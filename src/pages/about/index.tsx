@@ -16,11 +16,11 @@ const About: React.FC = () => {
                     <h3>Experiências</h3>
 
                     <p>
-                        Gaúcho de Porto Alegre e apaixonado por tecnologia, em 2017 me formei no técnico em informática que me fez ingressar com tudo no mundo da programação, me aprimorando cada vez mais em desenvolvimento web.  
+                        Gaúcho de Porto Alegre e apaixonado por tecnologia, em 2017 me formei no técnico em informática que me fez ingressar com tudo no mundo da programação, me aprimorando cada vez mais em desenvolvimento de soluções.  
                     </p>
 
                     <p>
-                        Atualmente trabalho como desenvolvedor full-stack na empresa Santins, sou formado em Análise e Desenvolvimento de Sistemas pela Uniasselvi. 
+                        Atualmente trabalho como desenvolvedor full-stack na empresa ECS, sou formado em Análise e Desenvolvimento de Sistemas pela Uniasselvi. 
                     </p>
 
                     <p>
